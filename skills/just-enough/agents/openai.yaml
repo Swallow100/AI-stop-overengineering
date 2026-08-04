@@ -1,0 +1,4 @@
+interface:
+  display_name: "Just Enough"
+  short_description: "Stop scope creep and test only what matters"
+  default_prompt: "Use $just-enough to make the smallest safe change and stop after proportionate verification."
