@@ -27,27 +27,27 @@ GPT-5.6の過剰な実装やテストを抑えるためのAgent Skillです。
 GitHub CLIがAgent Skillsに対応している場合：
 
 ```sh
-gh skill install Swallow100/gpt-5-6-stop-overengineering gpt-5-6-stop-overengineering
+gh skill install Swallow100/gpt-5.6-stop-overengineering gpt56-stop-overengineering
 ```
 
-手動の場合は [`skills/gpt-5-6-stop-overengineering`](skills/gpt-5-6-stop-overengineering) を利用するエージェントのskillsディレクトリへコピーしてください。
+手動の場合は [`skills/gpt56-stop-overengineering`](skills/gpt56-stop-overengineering) を利用するエージェントのskillsディレクトリへコピーしてください。
 
 ```text
-.agents/skills/gpt-5-6-stop-overengineering/
-.github/skills/gpt-5-6-stop-overengineering/
-.claude/skills/gpt-5-6-stop-overengineering/
+.agents/skills/gpt56-stop-overengineering/
+.github/skills/gpt56-stop-overengineering/
+.claude/skills/gpt56-stop-overengineering/
 ```
 
 ## 使い方
 
 ```text
-Use $gpt-5-6-stop-overengineering to fix the mobile menu regression. Do not redesign the header.
+Use $gpt56-stop-overengineering to fix the mobile menu regression. Do not redesign the header.
 ```
 
 日本語でも構いません。
 
 ```text
-$gpt-5-6-stop-overengineering を使ってログイン画面のクラッシュだけ直して。認証設計の変更はしないで。
+$gpt56-stop-overengineering を使ってログイン画面のクラッシュだけ直して。認証設計の変更はしないで。
 ```
 
 ## 変化の例
@@ -103,15 +103,15 @@ GPT-5.6 Stop Overengineering is a tiny, model-agnostic Agent Skill for controlli
 ### Install
 
 ```sh
-gh skill install Swallow100/gpt-5-6-stop-overengineering gpt-5-6-stop-overengineering
+gh skill install Swallow100/gpt-5.6-stop-overengineering gpt56-stop-overengineering
 ```
 
-For manual installation, copy [`skills/gpt-5-6-stop-overengineering`](skills/gpt-5-6-stop-overengineering) into a skills directory supported by your agent.
+For manual installation, copy [`skills/gpt56-stop-overengineering`](skills/gpt56-stop-overengineering) into a skills directory supported by your agent.
 
 ### Use
 
 ```text
-Use $gpt-5-6-stop-overengineering to fix the null title crash. Do not redesign the content model.
+Use $gpt56-stop-overengineering to fix the null title crash. Do not redesign the content model.
 ```
 
 ### What it will not do
