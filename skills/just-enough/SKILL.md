@@ -1,9 +1,9 @@
 ---
 name: just-enough
-description: Keep coding-agent work proportional to the request by locking scope, choosing the smallest sufficient implementation, matching verification to risk, and stopping when success is proven. Use for implementations, bug fixes, refactors, reviews, or maintenance where scope creep, speculative abstractions, unrelated cleanup, repeated test runs, unnecessary dependencies, or polishing beyond the request are risks.
+description: Keep GPT-5.6 and other coding-agent work proportional to the request by locking scope, choosing the smallest sufficient implementation, matching verification to risk, and stopping when success is proven. Use for implementations, bug fixes, refactors, reviews, or maintenance where scope creep, speculative abstractions, unrelated cleanup, repeated test runs, unnecessary dependencies, or polishing beyond the request are risks.
 ---
 
-# Just Enough
+# GPT-5.6 Stop Overengineering
 
 Make the smallest safe change. Produce proportionate proof. Then stop.
 
