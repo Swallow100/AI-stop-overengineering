@@ -31,7 +31,7 @@ Just Enoughは、その「やりすぎ」を止めるための小さなAgent Ski
 GitHub CLIがAgent Skillsに対応している場合：
 
 ```sh
-gh skill install chocota001/just-enough just-enough
+gh skill install Swallow100/just-enough just-enough
 ```
 
 手動の場合は [`skills/just-enough`](skills/just-enough) を、利用するエージェントのskillsディレクトリへコピーしてください。
@@ -107,7 +107,7 @@ Just Enough is a tiny, model-agnostic Agent Skill for controlling scope creep, t
 ### Install
 
 ```sh
-gh skill install chocota001/just-enough just-enough
+gh skill install Swallow100/just-enough just-enough
 ```
 
 For manual installation, copy [`skills/just-enough`](skills/just-enough) into a skills directory supported by your agent.
