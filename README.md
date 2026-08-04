@@ -4,7 +4,7 @@
 
 GPT-5.6 Solをはじめとする高性能コーディングエージェントは、頼んだ作業が終わった後も、追加のリファクタリング、抽象化、テスト、レビュー修正を続けることがあります。
 
-Just Enoughは、その「やりすぎ」を止めるための小さなAgent Skillです。
+GPT-5.6 Stop Overengineeringは、その「やりすぎ」を止めるための小さなAgent Skillです。
 
 > 必要十分な変更。リスクに見合う検証。終わったら止まる。
 
@@ -31,27 +31,27 @@ Just Enoughは、その「やりすぎ」を止めるための小さなAgent Ski
 GitHub CLIがAgent Skillsに対応している場合：
 
 ```sh
-gh skill install Swallow100/just-enough just-enough
+gh skill install Swallow100/gpt-5-6-stop-overengineering gpt-5-6-stop-overengineering
 ```
 
-手動の場合は [`skills/just-enough`](skills/just-enough) を、利用するエージェントのskillsディレクトリへコピーしてください。
+手動の場合は [`skills/gpt-5-6-stop-overengineering`](skills/gpt-5-6-stop-overengineering) を、利用するエージェントのskillsディレクトリへコピーしてください。
 
 ```text
-.agents/skills/just-enough/
-.github/skills/just-enough/
-.claude/skills/just-enough/
+.agents/skills/gpt-5-6-stop-overengineering/
+.github/skills/gpt-5-6-stop-overengineering/
+.claude/skills/gpt-5-6-stop-overengineering/
 ```
 
 ## 使い方
 
 ```text
-Use $just-enough to fix the mobile menu regression. Do not redesign the header.
+Use $gpt-5-6-stop-overengineering to fix the mobile menu regression. Do not redesign the header.
 ```
 
 日本語でも構いません。
 
 ```text
-$just-enough を使ってログイン画面のクラッシュだけ直して。認証設計の変更はしないで。
+$gpt-5-6-stop-overengineering を使ってログイン画面のクラッシュだけ直して。認証設計の変更はしないで。
 ```
 
 ## 変化の例
@@ -66,7 +66,7 @@ null titleのクラッシュを直す
 → 全テストを3回実行
 ```
 
-**Just Enoughを使う場合**
+**このスキルを使う場合**
 
 ```text
 null titleのクラッシュを直す
@@ -92,7 +92,7 @@ null titleのクラッシュを直す
 
 **Stop GPT-5.6 from turning a two-line fix into a framework.**
 
-Just Enough is a tiny, model-agnostic Agent Skill for controlling scope creep, test loops, speculative abstractions, and unrequested polish in GPT-5.6 and other coding agents.
+GPT-5.6 Stop Overengineering is a tiny, model-agnostic Agent Skill for controlling scope creep, test loops, speculative abstractions, and unrequested polish in GPT-5.6 and other coding agents.
 
 > Smallest sufficient change. Proportionate proof. Then stop.
 
@@ -107,20 +107,20 @@ Just Enough is a tiny, model-agnostic Agent Skill for controlling scope creep, t
 ### Install
 
 ```sh
-gh skill install Swallow100/just-enough just-enough
+gh skill install Swallow100/gpt-5-6-stop-overengineering gpt-5-6-stop-overengineering
 ```
 
-For manual installation, copy [`skills/just-enough`](skills/just-enough) into a skills directory supported by your agent.
+For manual installation, copy [`skills/gpt-5-6-stop-overengineering`](skills/gpt-5-6-stop-overengineering) into a skills directory supported by your agent.
 
 ### Use
 
 ```text
-Use $just-enough to fix the null title crash. Do not redesign the content model.
+Use $gpt-5-6-stop-overengineering to fix the null title crash. Do not redesign the content model.
 ```
 
 ### What it will not do
 
-Just Enough does not lower the bar for security, data integrity, public API changes, migrations, or releases. It preserves explicit acceptance criteria and mandatory repository checks. If the user asks for an exhaustive audit or broad refactor, that broader scope remains authoritative.
+This skill does not lower the bar for security, data integrity, public API changes, migrations, or releases. It preserves explicit acceptance criteria and mandatory repository checks. If the user asks for an exhaustive audit or broad refactor, that broader scope remains authoritative.
 
 The skill uses the open `SKILL.md` format and has no runtime dependencies, scripts, hooks, network calls, or tool permissions. It is designed for Codex, Claude Code, GitHub Copilot, and other Agent Skills-compatible tools.
 
