@@ -1,6 +1,6 @@
-# GPT-5.6 Stop Overengineering
+# Stop Overengineering
 
-GPT-5.6の過剰な実装やテストを抑えるためのAgent Skillです。
+AIの過剰な実装やテストを抑えるためのAgent Skillです。
 
 依頼された範囲を固定し、必要な変更と検証が終わった時点で作業を止めます。
 
@@ -84,11 +84,11 @@ null titleのクラッシュを直す
 
 ## English
 
-### GPT-5.6 Stop Overengineering
+### Stop Overengineering
 
-**Stop GPT-5.6 from turning a two-line fix into a framework.**
+**Stop AI from turning a two-line fix into a framework.**
 
-GPT-5.6 Stop Overengineering is a tiny, model-agnostic Agent Skill for controlling scope creep, test loops, speculative abstractions, and unrequested polish in GPT-5.6 and other coding agents.
+Stop Overengineering is a tiny, model-agnostic Agent Skill for controlling scope creep, test loops, speculative abstractions, and unrequested polish in GPT-5.6 and other coding agents.
 
 > Smallest sufficient change. Proportionate proof. Then stop.
 
